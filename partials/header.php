@@ -13,3 +13,16 @@
 </head>
 
 <body>
+    <nav>
+        <h1><span>bussines</span><br>Marketing & cosulting</h1>
+        <ul>
+            <li><a href="index.php">home</a></li>
+            <li><a href="about.php">about</a></li>
+            <li><a href="service.php">service</a></li>
+            <li><a href="index.php">blog</a></li>
+            <li><button>signup</button></li>
+            <li>
+                <i class="fas fa-search"></i>
+            </li>
+        </ul>
+    </nav>

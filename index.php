@@ -1,3 +1,3 @@
 <?php include "partials/header.php"?>
-<h1>bussines</h1>
+<h1>mainheader</h1>
 <?php include "partials/footer.php" ?>

@@ -1,0 +1,109 @@
+/*********************
+variables
+*********************/
+/*********************
+mixins
+*********************/
+/*********************
+basic styles
+*********************/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #1f1f1f;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+
+/***nav***/
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: linear-gradient(-110deg, rgba(240, 130, 130, 0.1), rgba(92, 81, 81, 0.1), #ef1f52);
+  padding: 20px 50px;
+}
+
+nav h1 span {
+  color: #1f1f1f;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-bettween;
+      -ms-flex-pack: space-bettween;
+          justify-content: space-bettween;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li button {
+  background: #ef1f52;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 10px;
+}
+
+nav ul li i {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

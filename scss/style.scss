@@ -1,7 +1,8 @@
 /*********************
 variables
 *********************/
-$fontFamily: 'Raleway', sans-serif;
+$fontFamily: 'Raleway',
+sans-serif;
 $font: 16px;
 $black: #1f1f1f;
 $pink: #ef1f52;
@@ -10,12 +11,25 @@ $lightgray: #cccac5;
 $boxShadom: #cccac5;
 $white: #fff;
 $transition: .3s ease;
-$padding: 50px 0;
+$padding: 20px 50px;
 
 /*********************
 mixins
 *********************/
+@mixin flex($justify, $align, $direction) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
 
+@mixin btn {
+    background: $pink;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 10px;
+}
 
 /*********************
 basic styles
@@ -25,11 +39,68 @@ basic styles
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: $fontFamily;
     line-height: 1.6;
+    font-size: $font;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 600;
     color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: $black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+
+/***nav***/
+nav {
+    @include flex(space-between, center, row);
+    background: linear-gradient(-110deg, rgba(240, 130, 130, 0.1), rgba(92, 81, 81, .1), $pink);
+    padding: $padding;
+
+    h1 {
+        span {
+            color: $black;
+            text-transform: uppercase;
+            font-size: 2rem;
+            font-weight: 800;
+        }
+    }
+
+    ul {
+        @include flex(space-bettween, center, row);
+
+        li {
+            margin-left: 20px;
+
+            button {
+                @include btn;
+            }
+
+            i {
+                background: $black;
+                color: $white;
+                padding: 10px;
+            }
+        }
+    }
 }
