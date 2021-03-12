@@ -37,11 +37,8 @@ ul {
 a {
   text-decoration: none;
   font-size: 1.2rem;
-  text-transform: uppercase;
-  color: #1f1f1f;
   font-weight: 600;
   letter-spacing: 2px;
-  margin-left: 20px;
 }
 
 /***nav***/
@@ -65,7 +62,11 @@ nav {
   padding: 20px 50px;
 }
 
-nav h1 span {
+nav a {
+  color: white;
+}
+
+nav a span {
   color: #1f1f1f;
   text-transform: uppercase;
   font-size: 2rem;
@@ -94,16 +95,76 @@ nav ul li {
   margin-left: 20px;
 }
 
+nav ul li a {
+  text-transform: uppercase;
+  color: #1f1f1f;
+}
+
 nav ul li button {
   background: #ef1f52;
   border: none;
-  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 20px 40px;
   margin: 10px 10px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 nav ul li i {
   background: #1f1f1f;
   color: #fff;
   padding: 10px;
+}
+
+/***mainHeader***/
+.mainHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../img/header.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  text-align: right;
+  padding: 150px 400px;
+  line-height: 2;
+}
+
+.mainHeader h1 {
+  color: #1f1f1f;
+  font-size: 4rem;
+}
+
+.mainHeader h2 {
+  color: #ef1f52;
+  font-size: 3rem;
+}
+
+.mainHeader p {
+  font-size: 1.5rem;
+}
+
+.mainHeader button {
+  background: #ef1f52;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 20px 40px;
+  margin: 10px 10px;
+  color: #fff;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
