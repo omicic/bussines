@@ -148,7 +148,7 @@ nav {
     }
 }
 
-/***headings***/
+/***sekcija***/
 .sekcija {
     @include flex(space-between, center, row);
 
@@ -184,7 +184,7 @@ nav {
         }
     }
 }
-
+/***solution***/
 .solution {
     @include flex(space-between, center, row);
     background-color: $black;
@@ -212,7 +212,36 @@ nav {
             text-transform: uppercase;
         }
     }
+}
 
+/***services***/
+
+.services{
+    @include flex(space-between,center,row);
+padding: 20px 0;
+
+    
+    article {
+        border: 1px solid $gray;
+        flex: 0 0 30%;
+        padding: 20px;
+        margin-bottom: 50px;
+
+        h3{
+            color: $black;
+        }
+        i {
+            color: $pink;
+            font-size: 2.5rem;
+            padding: 20px 0;
+
+        }
+        hr{
+            color: $gray;
+            font-weight: 80%;
+            margin: 10px auto;
+        }
+    }
 }
 
 .team {

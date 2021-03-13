@@ -31,37 +31,55 @@
     </article>
 </section>
 
-<!-- section class="services container">
+<section class="container sekcija">
     <article>
-        <i class="far fa-char-bar"></i>
+        <h2>02</h2>
+    </article>
+    <article>
+        <h4>services</h4>
+        <h2><span>how to </span> provide tools that help anyone</h2>
+        <p>Get your business in 4 easy steps</p>
+    </article>
+</section>
+
+<section class="services container">
+    <article>
+        <i class="far fa-chart-bar"></i>
         <h3>Marketing</h3>
         <hr>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sapiente molestias vitae excepturi hic quod
             aut ipsam veritatis perspiciatis culpa.</p>
     </article>
     <article>
-        <i class="far fa-char-bar"></i>
+        <i class="fas fa-bullseye"></i>
         <h3>Marketing</h3>
         <hr>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sapiente molestias vitae excepturi hic quod
             aut ipsam veritatis perspiciatis culpa.</p>
     </article>
     <article>
-        <i class="far fa-char-bar"></i>
+        <i class="fas fa-map-signs"></i>
         <h3>Marketing</h3>
         <hr>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sapiente molestias vitae excepturi hic quod
             aut ipsam veritatis perspiciatis culpa.</p>
     </article>
     <article>
-        <i class="far fa-char-bar"></i>
+        <i class="fas fa-filter"></i>
         <h3>Marketing</h3>
         <hr>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sapiente molestias vitae excepturi hic quod
             aut ipsam veritatis perspiciatis culpa.</p>
     </article>
     <article>
-        <i class="far fa-char-bar"></i>
+        <i class="fas fa-hand-holding-usd"></i>
+        <h3>Marketing</h3>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sapiente molestias vitae excepturi hic quod
+            aut ipsam veritatis perspiciatis culpa.</p>
+    </article>
+    <article>
+        <i class="fas fa-bullhorn"></i>
         <h3>Marketing</h3>
         <hr>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sapiente molestias vitae excepturi hic quod
@@ -69,7 +87,7 @@
     </article>
 </section>
 
-<section class="team container">
+<!--section class="team container">
     <article>
         <img src="img/team1.jpg" alt="">
         <h4>Jeams Daglas</h4>
