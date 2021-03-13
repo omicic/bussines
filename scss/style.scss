@@ -69,7 +69,10 @@ a {
     font-weight: 600;
     letter-spacing: 2px;
 }
-
+.container {
+    width: 80%;
+    margin: auto;
+}
 
 /***nav***/
 nav {
@@ -142,7 +145,56 @@ nav {
         @include btn;
         text-transform: uppercase;
     }
+}
 
+/***headings***/
+.sekcija{
+    @include flex(space-between, center ,row);
 
+    article:first-child{
+        flex:0 0 30%;
+        h2 {
+            color: $gray;
+            font-size: 10rem;
+            text-align: right;
+           
+        }
+    }
+    article:last-child{
+        flex: 0 0 65%;
+        color: $black;
 
+        h3{
+            color: $black;
+            text-transform: uppercase;
+    
+        }
+        h2{
+            span {
+                color: $pink;
+                text-transform: uppercase;
+            }
+            color: $black;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.team{
+    padding-bottom: 100px;
+   
+    @include flex(space-between,center, row);
+    text-align: center;
+    article {
+        flex: 0 0 30%;
+        img{
+            width: 100%;
+            border-radius: 50%;
+          
+            
+        }
+        h4{
+            color: $pink;
+        }
+    }
 }
