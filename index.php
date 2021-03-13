@@ -13,11 +13,22 @@
         <h2>01</h2>
     </article>
     <article>
-        <h3>about us</h3>
+        <h4>about us</h4>
         <h2><span>we can </span> help your business grow</h2>
         <p>Get your business in 4 easy steps</p>
     </article>
+</section>
 
+<section class="solution">
+    <article>
+        <img src="img/about.jpg" alt="">
+    </article>
+    <article>
+        <h3>everything you need in one solution</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nulla odit necessitatibus praesentium vitae.
+            Beatae eius debitis excepturi eos quasi, obcaecati recusandae dicta accusantium ipsam nobis, dolore
+            molestiae tempore non.</p>
+    </article>
 </section>
 
 <!-- section class="services container">

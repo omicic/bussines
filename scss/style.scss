@@ -69,6 +69,7 @@ a {
     font-weight: 600;
     letter-spacing: 2px;
 }
+
 .container {
     width: 80%;
     margin: auto;
@@ -148,52 +149,89 @@ nav {
 }
 
 /***headings***/
-.sekcija{
-    @include flex(space-between, center ,row);
+.sekcija {
+    @include flex(space-between, center, row);
 
-    article:first-child{
-        flex:0 0 30%;
+    article:first-child {
+        flex: 0 0 30%;
+
         h2 {
             color: $gray;
             font-size: 10rem;
             text-align: right;
-           
+
         }
     }
-    article:last-child{
+
+    article:last-child {
         flex: 0 0 65%;
         color: $black;
 
-        h3{
+        h4 {
             color: $black;
             text-transform: uppercase;
-    
+
         }
-        h2{
+
+        h2 {
             span {
                 color: $pink;
                 text-transform: uppercase;
             }
+
             color: $black;
             text-transform: uppercase;
         }
     }
 }
 
-.team{
+.solution {
+    @include flex(space-between, center, row);
+    background-color: $black;
+    color: $white;
+    line-height: 1.7;
+
+    article:first-child {
+        height: 500px;
+        flex: 0 0 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+
+    article:last-child {
+        flex: 0 0 50%;
+        padding: 0 40px;
+
+        h3 {
+            color: $white;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.team {
     padding-bottom: 100px;
-   
-    @include flex(space-between,center, row);
+
+    @include flex(space-between, center, row);
     text-align: center;
+
     article {
         flex: 0 0 30%;
-        img{
+
+        img {
             width: 100%;
             border-radius: 50%;
-          
-            
+
+
         }
-        h4{
+
+        h4 {
             color: $pink;
         }
     }
